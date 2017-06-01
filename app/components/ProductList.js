@@ -16,7 +16,7 @@ class Product extends React.Component {
     return (
         <div className='items'>
           <div className='image'>
-            <img src={this.props.productImageUrl} />
+             {/* <img src={this.props.productImageUrl} /> */}
           </div>
           <div className='content'>
             <div className='header'>

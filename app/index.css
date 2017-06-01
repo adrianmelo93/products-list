@@ -1,7 +1,10 @@
 
+
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   background-color: rgb(240, 240,240);
   border: 2px solid;
@@ -12,8 +15,16 @@
 
 .header {
   margin-bottom: 50px;
+  display: flex;
+  align-self: center;
 }
 
 .item {
   border-bottom: 2px solid;
+  display: flex;
+  align-self: center;
+}
+
+img{
+  width: 300px;
 }
